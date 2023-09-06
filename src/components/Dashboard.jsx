@@ -30,7 +30,7 @@ const Profile = () => {
   };
 
   return (
-    <div>
+    <div className="back2">
       <div className="timest">
         <DateTimeDisplay />
       </div>

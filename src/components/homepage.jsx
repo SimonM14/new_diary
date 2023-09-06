@@ -3,7 +3,7 @@ import RegistrationForm from "./regform";
 
 function Myhome() {
   return (
-    <div>
+    <div className="back2">
       <h1 className="h1">Mi-Thoughts</h1>
 
       <div className="homediv">

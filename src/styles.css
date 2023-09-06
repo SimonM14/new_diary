@@ -1,5 +1,16 @@
 .back {
-  background-image: "./images/spooky-tree-against-big-moon_1048-2912.avif";
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-image: url("./images/nature-black-leafs_849688-3773.jpg");
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-size: cover;
+  background-image: ;
+}
+.back2 {
+  background-image: url("./images/nature-black-leafs_849688-3773.jpg");
 }
 .manta {
   text-align: left;
@@ -20,15 +31,15 @@
 }
 .about-text {
   text-align: center;
+  text-indent: 2%;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  font-size: 2.5vw;
+  font-size: 3.5vh;
+  width: 60%;
+  float: left;
+  margin-top: 10%;
+  color: darksalmon;
 }
-.about-cont {
-  position: absolute;
-  max-width: 1000px;
-  max-height: 1000px;
-  padding: 70px 0;
-}
+
 .button-container {
   display: flex;
   justify-content: center;
@@ -87,6 +98,7 @@
   margin-left: 25px;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   text-align: center;
+  color: aquamarine;
 }
 .logindiv {
   position: absolute;
@@ -135,9 +147,6 @@ body {
   width: 60%;
 }
 
-.footer {
-  text-align: center;
-}
 .homtxt {
   text-shadow: #bdc3c7;
   color: aqua;
@@ -147,6 +156,7 @@ body {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-size: larger;
   font-style: oblique;
+  
 }
 .box1 {
   padding: 10px;
@@ -162,4 +172,17 @@ body {
   margin: 5px 0;
   border: 3px solid aqua;
   border-radius: 5px;
+}
+.footer {
+  text-align: center;
+  text-shadow: 50%;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 200%;
+  color: aqua;
+}
+
+.navstyle {
+  font-style: italic;
+  text-align: right;
+  margin-top: 20px;
 }

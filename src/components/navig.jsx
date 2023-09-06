@@ -1,17 +1,10 @@
 const { Link } = require("react-router-dom");
 const Navbar = () => {
   return (
-    <nav
-      style={{
-        textAlign: "right",
-        fontStyle: "italic",
-        backgroundColor: "",
-        marginTop: "20px",
-      }}
-    >
+    <nav className="navstyle">
       <Link to="/" style={{ padding: "20px" }}>
         Home
-      </Link>
+        </Link>
       <Link to="/profile" style={{ padding: "20px" }}>
         Profile
       </Link>
