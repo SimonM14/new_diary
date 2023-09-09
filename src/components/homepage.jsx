@@ -1,5 +1,6 @@
 import React from "react";
-import RegistrationForm from "./regform";
+import AuthForm from "./AuthForm";
+import './Auth.css';
 
 function Myhome() {
   return (
@@ -26,7 +27,7 @@ function Myhome() {
               <h3 className="homtxt"> Sign up to Mi-thoughts</h3>
             </div>
           </nav>
-          <RegistrationForm></RegistrationForm>
+          < AuthForm/>
         </div>
       </div>
     </div>
